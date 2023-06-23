@@ -1,0 +1,31 @@
+body {
+  background: linear-gradient(
+    100deg,
+    #a14258,
+    #b37a40,
+    #3e655f,
+    #aa535d,
+    #5d75a5
+  );
+  background-size: 600% 600%;
+  animation: gradientAnimation 10s ease-in-out infinite;
+  font-family: 'Century Gothic', Futura, sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f5f5f5;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+}
